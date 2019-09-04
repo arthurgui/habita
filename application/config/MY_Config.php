@@ -1,0 +1,42 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+
+$config['myconfig']	=	array(
+							'assets'				=>	'assets',
+							'bootstrap4css'			=>	'assets/bootstrap/4.0/css/bootstrap.css',
+							'bootstrapcss'			=>	'assets/bootstrap/css/bootstrap.css',
+							'bootstrap4js'			=>	'assets/bootstrap/4.0/js/bootstrap.js',
+							'bootstrapjs'			=>	'assets/bootstrap/js/bootstrap.js',
+							'bootstrap_chosencss'	=>	'assets/bootstrap-chosen-master/css/bootstrap-chosen.css',
+							'bootstrap_chosenjs'	=>	'assets/bootstrap-chosen-master/js/chosen.jquery.js',
+							'ckeditorjs'			=>	'assets/ckeditor_standard/ckeditor.js',
+							'cpf_cnpjjs'			=>	'assets/js/cpf_cnpj.js',
+							'datatablesbootstrapjs'	=>	'assets/DataTables/media/js/dataTables.bootstrap.js',
+							'datatablescss'			=>	'assets/DataTables/media/css/dataTables.bootstrap.min.css',
+							'datatablesjs'			=>	'assets/DataTables/media/js/jquery.dataTables.js',
+							'datetimemomentjs'		=>	'assets/DateTimeMoment/datetime-moment.js',
+							'favicon'				=>	'assets/images/favicon.png',
+							'logo_pmc'				=>	'assets/images/logo_pmc.png',
+							'fontawesomejs'			=>	'assets/fontawesome/js/fontawesome-all.js',
+							'fontawesomecss'		=>	'assets/fontawesome/css/fontawesome-all.css',
+							'functionsjs'			=>	'assets/js/functions.js',
+							'images'				=>	'assets/images',
+							'jqueryformjs'			=>	'assets/AjaxPhpUpload/jquery.form.min.js',
+							'jqueryjs'				=>	'assets/jquery/jquery3.3.1.js',
+							'popperjs'				=>	'assets/jquery/popper.js',
+							//'jqueryjs'				=>	'assets/jquery/jquery2.1.3.js',
+							'momentjs'				=>	'assets/Moment/moment.js',
+							'moment_localejs'		=>	'assets/Moment/moment-with-locales.js',
+							'pagingjs'				=>	'assets/js/paging.js',
+							'stylecss'				=>	'assets/css/styles.css',
+							'scriptjs'				=>	'assets/js/script.js',
+							'toastrcss'				=>	'assets/Toastr/toastr.css',
+							'toastrjs'				=>	'assets/Toastr/toastr.js',
+							'title'					=>	'.:: HABITAÇÃO ::.',
+							'copyright'				=>	'2018 - HADES WEB© - Brazil',
+							'webshim'				=>	'assets/webshim/js-webshim/minified/polyfiller.js',
+						);
+
+$config['arquivos']	=	array(
+							'backupDB'		=>	'assets/backupDB',
+							'backupTB'		=>	'assets/backupTB',
+						);
